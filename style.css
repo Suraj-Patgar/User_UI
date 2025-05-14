@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "bgothm";
+    src: url(./BGOTHM.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+html, body{
+    background-color: #ebeff5;
+    width: 100%;
+    height: 100%;
+}
+#main{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+    /* margin-top: 50px; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#card{
+    width: 250px;
+    height: 370px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+}
+#img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+#card h1{
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "bgothm";
+}
+#card h2{
+    font-size: 13px;
+    margin-top: 6px;
+    opacity: 0.5;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.ui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border: 2px solid rgb(210, 207, 207);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+#card p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    opacity: 0.5;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#bar{
+    margin-top: 30px;
+    width: 60px;
+    height: 2px;
+    background-color: grey;
+    opacity: 0.5;
+}
+#profile{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform ease 0.2s;
+}
+#profile:hover{
+    background-color: rgb(53, 140, 246);
+    color: white;
+}
+#profile:active{
+    transform: scale(0.97);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
